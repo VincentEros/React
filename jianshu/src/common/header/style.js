@@ -31,6 +31,9 @@ export const NavItem = styled.div`
     float: right;
     color: #969696;
   }
+  &.right,.iconfont {
+    font-size: 20px;
+  }
   &.active {
     color: #ea6f5a;
   }
@@ -40,13 +43,25 @@ export const NavItem = styled.div`
   color: #333;
 `
 export const SearchBox = styled.div`
+  position: relative;
   float: left;
 `
 
 export const SearchIcon = styled.div`
   position: absolute;
-  top: 23px;
-  left: 878px;
+  top: 15px;
+  right: 25px;
+  color: #969696;
+  border-radius: 50%
+  background: #eee;
+  line-height: 30px;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  &.focus {
+    background: #969696;
+    color: #fff;
+  }
 `
 
 export const NavSearch = styled.input.attrs({placeholder: '搜索'})`
@@ -60,7 +75,75 @@ export const NavSearch = styled.input.attrs({placeholder: '搜索'})`
   background: #eee;
   font-size: 15px;
   color: #999;
+  &.focus {
+    width: 260px;
+  }
+  &.slide-enter {
+    transition: all .5s;
+  }
+  &.slide-enter-active {
+    width: 260px;
+  }
+  &.slide-exit {
+    transition: all .5s;
+  }
+  &.slide-exit-active {
+    width: 180px;
+  }
+`
 
+export const SearchInfo = styled.div`
+  visibility: hidden;
+  position: absolute;
+  left: 18px;
+  top: 56px;
+  width: 200px;
+  padding: 0 20px;
+  border-radius: 4px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .2);
+  &.focus {
+    visibility: visible;
+  }
+`
+export const SearchTitle = styled.div`
+  margin: 20px 0 15px 0;
+  line-height: 20px;
+  font-size: 14px;
+  color: #969696;
+  width: 180px;
+  float: left;
+`
+export const SearchInfoSwitch = styled.span`
+  float: right;
+  font-size: 13px;
+  background-color: transparent;
+  border-width: 0;
+  padding: 0;
+  &:hover {
+    color: black;
+    cursor: pointer;
+  }
+  .spin {
+    display: block;
+    float: left;
+    margin-right: 3px;
+    font-size: 12px;
+    transition: transform .2s;
+  }
+
+`
+export const SearchInfoList =styled.div`
+`
+
+export const SearchInfoItem = styled.a`
+  margin-bottom: 13px;
+  display: inline-block;
+  margin-right: 10px;
+  padding: 2px 6px;
+  font-size: 12px;
+  color: #787878;
+  border: 1px solid #ddd;
+  border-radius: 3px;
 `
 
 export const Addition = styled.div`
@@ -93,5 +176,9 @@ export const Button = styled.div`
     font-size: 15px;
     color: #ea6f5a;
     background-color: transparent;
+  }
+  .iconfont {
+    text-align: center;
+    font-size: 22px;
   }
 `
