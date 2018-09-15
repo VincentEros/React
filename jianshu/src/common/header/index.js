@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { CSSTransition } from 'react-transition-group'
 import { actionCreators } from './store'
+import { actionCreators as loginActionCreators } from '../../pages/login/store'
+import { Link } from 'react-router-dom'
 import {
   HeaderWrapper,
   Logo,
@@ -22,7 +24,7 @@ import {
 class Header extends Component{
 
   render () {
-    const { focused, list, mouseIn, page, totalPage, handleFocus, handleBlur, handleMouseEnter, handleMouseLeave, handleSwitch } = this.props
+    const { login, focused, list, mouseIn, page, totalPage, handleLogout, handleFocus, handleBlur, handleMouseEnter, handleMouseLeave, handleSwitch } = this.props
     const newList = list.toJS()
     const pageList = []
     for (let i = (page -1 ) * 10; i < page * 10; i++) {
@@ -33,11 +35,17 @@ class Header extends Component{
 
     return (
       <HeaderWrapper>
-        <Logo/>
+        <Link to="/">
+          <Logo/>
+        </Link>
         <Nav>
           <NavItem className="left active iconfont">&#xe7e3;首页</NavItem>
           <NavItem className="left iconfont">&#xe791;下载App</NavItem>
-          <NavItem className="right">登录</NavItem>
+          {
+            login ?
+              <NavItem onClick={handleLogout} className="right logout">退出</NavItem>:
+              <Link to="/login"><NavItem className="right">登录</NavItem></Link>
+          }
           <NavItem className="right iconfont">&#xe636;</NavItem>
           <SearchBox>
             <CSSTransition
@@ -77,10 +85,11 @@ class Header extends Component{
           </SearchBox>
         </Nav>
         <Addition>
-          <Button className="write">
+          <Link to="/write"><Button className="write">
             <i className="iconfont">&#xe600;</i>
             写文章
           </Button>
+          </Link>
           <Button className="sign">注册</Button>
         </Addition>
       </HeaderWrapper>
@@ -96,12 +105,15 @@ const mapStateToProps = (state) => {
     list: state.getIn(['header', 'list']),
     page: state.getIn(['header', 'page']),
     totalPage: state.getIn(['header', 'totalPage']),
-
-}
+    login: state.getIn(['login', 'login'])
+  }
 }
 
 const mapDispatchToProps = (dispatch) => {
   return {
+    handleLogout () {
+      dispatch(loginActionCreators.logout())
+    },
     handleFocus (list) {
       (list.size === 0) && dispatch(actionCreators.getList())
       dispatch(actionCreators.searchFocus())

@@ -7,7 +7,7 @@ export const HeaderWrapper = styled.div`
   border-bottom: 1px solid #f0f0f0;
 `
 
-export const Logo = styled.a.attrs({href:'/'})`
+export const Logo = styled.div`
   position: absolute;
   top: 0;
   left: 230px;
@@ -41,6 +41,9 @@ export const NavItem = styled.div`
   line-height: 58px;
   font-size: 17px;
   color: #333;
+  &.logout{
+    cursor: pointer;
+  }
 `
 export const SearchBox = styled.div`
   position: relative;
@@ -93,12 +96,14 @@ export const NavSearch = styled.input.attrs({placeholder: '搜索'})`
 `
 
 export const SearchInfo = styled.div`
+  z-index: 3;
   visibility: hidden;
   position: absolute;
   left: 18px;
   top: 56px;
   width: 200px;
   padding: 0 20px;
+  background: #fff;
   border-radius: 4px;
   box-shadow: 0 0 8px rgba(0, 0, 0, .2);
   &.focus {
