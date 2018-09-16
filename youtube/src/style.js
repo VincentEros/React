@@ -22,8 +22,9 @@ injectGlobal`
     vertical-align: baseline;
     text-decoration: none;
   }
+  
 
-  article, aside, details, figcaption, figure, 
+  div, article, aside, details, figcaption, figure, 
   footer, header, hgroup, menu, nav, section {
     display: block;
   }
