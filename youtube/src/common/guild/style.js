@@ -24,6 +24,20 @@ export const MastheadContainer = styled.div`
 `
 
 export const Masthead = styled.div`
+  ::after {
+    bottom: -5px;
+    box-shadow: inset 0px 4px 8px -3px rgba(17, 17, 17, .06);
+    content: "";
+    height: 5px;
+    left: 0px;
+    opacity: 1;
+    pointer-events: none;
+    position: absolute;
+    right: 0px;
+    width: 100%;
+    z-index: 2050;
+  }
+  background: #fff;
   height: 56px;
   padding: 0 16px;
   display: flex;
@@ -43,7 +57,9 @@ export const LeftGuildBtn = styled.div`
   }
 `
 
-export const Logo = styled.div`
+export const Logo = styled.a.attrs({
+  href: '/'
+})`
   width: 129px;
   display: flex;
   flex-direction: row;
@@ -143,7 +159,7 @@ export const LeftGuildContainer =styled.div`
 `
 
 export const GuildContent = styled.div`
-  background: #F8F8F8;
+  background: #F5F5F5;
   width: 240px;
   flex: 1;
   flex-basis: 0.000000001px;

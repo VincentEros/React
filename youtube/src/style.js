@@ -46,6 +46,11 @@ injectGlobal`
     border-collapse: collapse;
     border-spacing: 0;
   }
+  
+  .click-count::after {
+    content: '•';
+    margin: 0 4px;
+  }
 `
 
 

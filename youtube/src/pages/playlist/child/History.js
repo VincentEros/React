@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 
-class History extends Component {
+class ListHistory extends Component {
   render() {
     return (
       <div>观看历史</div>
@@ -8,4 +8,4 @@ class History extends Component {
   }
 }
 
-export default History
+export default ListHistory

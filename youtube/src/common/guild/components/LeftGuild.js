@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-import {Input} from "antd";
 import 'antd/dist/antd.css';
 import {
   LeftGuildContainer,
@@ -28,19 +27,19 @@ class LeftGuild extends Component {
                 </h3>
                 <div id="items">
                   <GuildItem>
-                    <a href="">
+                    <a href="/">
                       <i className="iconfont home">&#xe6b5;</i>
                       首页
                     </a>
                   </GuildItem>
                   <GuildItem>
-                    <a href="">
+                    <a href="/trending">
                       <i className="iconfont">&#xe664;</i>
                       时下流行
                     </a>
                   </GuildItem>
                   <GuildItem>
-                    <a href="">
+                    <a href="/subscriptions">
                       <i className="iconfont">&#xe964;</i>
                       订阅内容
                     </a>
@@ -50,30 +49,30 @@ class LeftGuild extends Component {
               <GuildSection>
                 <h3>
                   <div id="guide-section-title">
-                    <a href="">媒体库</a>
+                    <a href="/playlist">媒体库</a>
                   </div>
                 </h3>
                 <div id="items">
                   <GuildItem>
-                    <a href="">
+                    <a href="/playlist/history">
                       <i className="iconfont">&#xe6b4;</i>
                       历史记录
                     </a>
                   </GuildItem>
                   <GuildItem>
-                    <a href="">
+                    <a href="/playlist/later">
                       <i className="iconfont">&#xe699;</i>
                       稍后观看
                     </a>
                   </GuildItem>
                   <GuildItem>
-                    <a href="">
+                    <a href="/playlist/learning">
                       <i className="iconfont">&#xe7af;</i>
                       学习
                     </a>
                   </GuildItem>
                   <GuildItem>
-                    <a href="">
+                    <a href="/playlist/liked">
                       <i className="iconfont">&#xe74b;</i>
                       顶过的视频
                     </a>

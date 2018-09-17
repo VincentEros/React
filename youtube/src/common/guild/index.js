@@ -4,6 +4,7 @@ import {actionCreators} from './store'
 import TopGuild from './components/MastheadContainer'
 import LeftGuild from './components/LeftGuild'
 
+
 class Guild extends Component {
   render() {
     const { doseLeftGuildShow, toggleLeftGuild } = this.props
