@@ -61,6 +61,30 @@ export const VideoRenderer = styled.div`
       position: relative;
       flex: none;
     }
+      .thumbnail-time {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin: 4px;
+        color: hsl(0, 0%, 100%);
+        opacity: .8;
+        padding: 2px 4px;
+        border-radius: 2px;
+        letter-spacing: .5px;
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 1.2rem;
+        flex-direction: row;
+        align-items: center;
+        display: inline-flex;
+        background: hsl(0, 0%, 6.7%);
+      }
+        .thumbnail-time>span {
+          margin: 0;
+          padding: 0;
+          border: 0;
+          background: transparent;
+        }
       .thumbnail-default {
         position: absolute;
         top: 0;
@@ -131,7 +155,7 @@ export const VideoRenderer = styled.div`
             flex-direction: row;
             align-items: center;
           }
-              .uploadmen>a {
+              .uploadman>a {
                 font-size: 14px;
                 color: #B5B5B5;
               }

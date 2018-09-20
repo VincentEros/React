@@ -3,14 +3,14 @@ import * as actionTypes from './createTypes'
 
 
 const defaultState = fromJS({
-  videoList: []
+  trVideoList: []
 })
 
 export default (state = defaultState, action) => {
   switch (action.type) {
-    case actionTypes.CHANGE_HOME_DATA:
+    case actionTypes.CHANGE_TR_DATA:
       return state.merge({
-        videoList: fromJS(action.videoList)
+        trVideoList: fromJS(action.trVideoList)
       })
     default:
       return state

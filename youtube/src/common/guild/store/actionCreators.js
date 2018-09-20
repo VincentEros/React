@@ -1,6 +1,6 @@
 import * as actionTypes from './createTypes'
 // import axios from 'axios'
-import { fromJS } from 'immutable'
+// import { fromJS } from 'immutable'
 
 // const changeList = (data) => ({
 //   type: actionTypes.CHANGE_LIST,

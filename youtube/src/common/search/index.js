@@ -1,18 +1,18 @@
 import React, {Component} from 'react'
-import { connect } from 'react-redux'
 import {
-  TrendingWrapper,
+  SearchWrapper,
   VideoMenuButton
 } from './style'
-import { actionCreators } from './store'
-import * as methods from "../../common/methods";
-class Trending extends Component {
+import { connect } from "react-redux"
+import { actionCreators } from "./store";
+import * as methods from "../methods";
+class Search extends Component {
   render() {
     return (
-      <TrendingWrapper>
+      <SearchWrapper>
         <div className="trending-list">
           {
-            this.props.trVideoList.map((item) => {
+            this.props.resultList.map((item) => {
               return (
                 <div className="trending-item" key={item.get('id')}>
                   <div className="thumbnail">
@@ -73,26 +73,29 @@ class Trending extends Component {
             })
           }
         </div>
-      </TrendingWrapper>
+      </SearchWrapper>
     )
   }
   componentDidMount () {
-    this.props.changeTrendingData()
+    this.props.changeResultgData()
   }
   componentDidUpdate () {
     methods.toGifBindEvent()
   }
-
+}
+// 第一步  发送给后台 要搜索的value 后台开辟一块带有参数key 的存储空间  第二步后台处理数据 在该空间注入数据 返回这个key第三步  前端key取
+const mapState = (state) => {
+  return {
+    resultList: state.getIn(['search','resultList'])
+  }
 }
 
-const mapState = (state) => ({
-  trVideoList: state.getIn(['trending', 'trVideoList'])
-})
-
+// 因为location载入后 搜索框里获得的数据被清除了  所以 不调用下面这个方法伪装成搜索框获取的数据的话  state resultList里是没有存我们的搜索结果的
 const mapDispatch = (dispatch) => ({
-  changeTrendingData() {
-    dispatch(actionCreators.getTrendingInfo())
+  changeResultgData() {
+    dispatch(actionCreators.getSearchInfo())
   }
 })
 
-export default connect(mapState, mapDispatch)(Trending)
+
+export default connect(mapState, mapDispatch)(Search)

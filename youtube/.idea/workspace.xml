@@ -2,22 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="857f0a30-84bc-4d23-8988-2ad9d9562d4a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/playlist/Mainplaylist.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/subscriptions/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/trending/style.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/api/home.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/api/searchResult.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/api/trending.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/guild/components/DropdownMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/methods/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/search/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/search/store/actionCreators.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/search/store/createTypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/search/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/search/store/reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/search/style.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/trending/store/actionCreators.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/trending/store/createTypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/trending/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/trending/store/reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jianshu/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jianshu/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jianshu/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../jianshu/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jianshu/src/pages/detail/store/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../jianshu/src/pages/detail/store/reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/guild/components/LeftGuild.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/guild/components/LeftGuild.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/guild/components/MastheadContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/guild/components/MastheadContainer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common/guild/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/guild/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/guild/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/guild/style.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/history/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/playlist/child/History.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/guild/store/actionCreators.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/guild/store/actionCreators.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/store/actionCreators.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/store/actionCreators.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/store/createTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/store/createTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/store/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/store/reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/home/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/style.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/style.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/trending/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/trending/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/trending/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/trending/style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -33,37 +54,46 @@
     <session id="1182477107">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.23" value="1" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.23" value="2" />
+          <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="2" />
-          <entry key="js" value="101" />
-          <entry key="json" value="5" />
+          <entry key="html" value="1" />
+          <entry key="js" value="213" />
+          <entry key="json" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="2" />
-          <entry key="JSON" value="5" />
-          <entry key="JavaScript" value="101" />
+          <entry key="HTML" value="1" />
+          <entry key="JSON" value="22" />
+          <entry key="JavaScript" value="213" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="8" />
-          <entry key="js" value="9040" />
+          <entry key="html" value="64" />
+          <entry key="js" value="13069" />
+          <entry key="json" value="110" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="8" />
-          <entry key="JavaScript" value="9040" />
+          <entry key="HTML" value="64" />
+          <entry key="JSON" value="110" />
+          <entry key="JavaScript" value="13069" />
         </counts>
       </usages-collector>
     </session>
@@ -73,8 +103,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="20" column="57" lean-forward="true" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+            <state relative-caret-position="950">
+              <caret line="51" column="3" selection-start-line="51" selection-start-column="3" selection-end-line="51" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/home/store/reducer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="47" selection-start-column="47" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/common/guild/components/MastheadContainer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="496">
+              <caret line="29" column="46" lean-forward="true" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -83,65 +146,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pages/trending/index.js">
+        <entry file="file://$PROJECT_DIR$/src/common/search/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="465" column="16" selection-start-line="465" selection-start-column="16" selection-end-line="465" selection-end-column="16" />
+            <state relative-caret-position="546">
+              <caret line="92" column="40" selection-start-line="92" selection-start-column="40" selection-end-line="92" selection-end-column="40" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
-                <element signature="e#237#1656#0" />
-                <element signature="e#608#1223#0" />
-                <element signature="e#889#962#0" />
-                <element signature="e#1222#1290#0" />
-                <element signature="e#2595#4942#0" />
-                <element signature="e#2639#3231#0" />
-                <element signature="e#3337#3977#0" />
-                <element signature="e#3694#3954#0" />
-                <element signature="e#4953#7300#0" />
-                <element signature="e#4997#5589#0" />
-                <element signature="e#5695#6335#0" />
-                <element signature="e#6052#6312#0" />
-                <element signature="e#7311#9658#0" />
-                <element signature="e#7355#7947#0" />
-                <element signature="e#8053#8693#0" />
-                <element signature="e#8410#8670#0" />
-                <element signature="e#9669#12016#0" />
-                <element signature="e#9713#10305#0" />
-                <element signature="e#10411#11051#0" />
-                <element signature="e#10768#11028#0" />
-                <element signature="e#12027#14374#0" />
-                <element signature="e#12071#12663#0" />
-                <element signature="e#12769#13409#0" />
-                <element signature="e#13126#13386#0" />
-                <element signature="e#14385#16732#0" />
-                <element signature="e#14429#15021#0" />
-                <element signature="e#15127#15767#0" />
-                <element signature="e#15484#15744#0" />
-                <element signature="e#16743#19090#0" />
-                <element signature="e#16787#17379#0" />
-                <element signature="e#17485#18125#0" />
-                <element signature="e#17842#18102#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/trending/style.js">
+        <entry file="file://$PROJECT_DIR$/src/common/guild/components/DropdownMenu.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="740">
-              <caret line="137" selection-start-line="137" selection-end-line="137" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/common/guild/components/MastheadContainer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1275">
-              <caret line="63" column="14" selection-start-line="63" selection-start-column="14" selection-end-line="67" selection-end-column="30" />
+            <state relative-caret-position="200">
+              <caret line="9" column="67" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
               <folding>
-                <element signature="e#0#38#0" expanded="true" />
+                <element signature="e#0#25#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -163,9 +185,15 @@
       <find>red</find>
       <find>after</find>
       <find>content</find>
+      <find>'</find>
+      <find>uploadmen</find>
+      <find>upload</find>
+      <find>time</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;TopMenuButton className=&quot;change-bg&quot;&gt;</replace>
+      <replace>&quot;</replace>
+      <replace>uploadman</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -175,36 +203,55 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/common/header/index.js" />
-        <option value="$PROJECT_DIR$/src/pages/search/index.js" />
         <option value="$PROJECT_DIR$/src/pages/history/index.js" />
         <option value="$PROJECT_DIR$/src/store/index.js" />
         <option value="$PROJECT_DIR$/src/static/iconfont/iconfont.css" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/common/guild/store/index.js" />
         <option value="$PROJECT_DIR$/src/common/guild/store/createTypes.js" />
-        <option value="$PROJECT_DIR$/src/common/guild/store/actionCreators.js" />
         <option value="$PROJECT_DIR$/src/common/guild/store/reducer.js" />
         <option value="$PROJECT_DIR$/src/static/iconfont/iconfont.js" />
-        <option value="$PROJECT_DIR$/src/pages/home/store/reducer.js" />
-        <option value="$PROJECT_DIR$/src/pages/home/store/createTypes.js" />
-        <option value="$PROJECT_DIR$/src/pages/home/store/actionCreators.js" />
-        <option value="$PROJECT_DIR$/src/store/reducer.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/pages/style.js" />
-        <option value="$PROJECT_DIR$/src/common/guild/index.js" />
-        <option value="$PROJECT_DIR$/src/common/guild/components/MastheadContainer.js" />
-        <option value="$PROJECT_DIR$/src/common/guild/style.js" />
-        <option value="$PROJECT_DIR$/src/common/guild/components/LeftGuild.js" />
         <option value="$PROJECT_DIR$/src/pages/playlist/components/History.js" />
         <option value="$PROJECT_DIR$/src/pages/playlist/components/Mainplaylist.js" />
         <option value="$PROJECT_DIR$/src/pages/playlist/index.js" />
         <option value="$PROJECT_DIR$/src/pages/subscriptions/index.js" />
-        <option value="$PROJECT_DIR$/src/pages/index.js" />
-        <option value="$PROJECT_DIR$/src/pages/home/index.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/common/guild/components/Dropdown.js" />
+        <option value="$PROJECT_DIR$/src/common/guild/style.js" />
+        <option value="$PROJECT_DIR$/public/trending.json" />
+        <option value="$PROJECT_DIR$/src/pages/trending/store/index.js" />
+        <option value="$PROJECT_DIR$/src/common/guild/store/actionCreators.js" />
+        <option value="$PROJECT_DIR$/src/pages/home/store/reducer.js" />
         <option value="$PROJECT_DIR$/src/style.js" />
+        <option value="$PROJECT_DIR$/src/common/methods/hoverShowGif.js" />
+        <option value="$PROJECT_DIR$/src/pages/home/store/actionCreators.js" />
+        <option value="$PROJECT_DIR$/src/pages/home/store/createTypes.js" />
+        <option value="$PROJECT_DIR$/src/common/guild/components/LeftGuild.js" />
+        <option value="$PROJECT_DIR$/src/pages/search/style.js" />
+        <option value="$PROJECT_DIR$/src/pages/search/index.js" />
+        <option value="$PROJECT_DIR$/public/api/home.json" />
+        <option value="$PROJECT_DIR$/src/store/reducer.js" />
+        <option value="$PROJECT_DIR$/src/pages/trending/store/createTypes.js" />
+        <option value="$PROJECT_DIR$/src/pages/home/store/index.js" />
+        <option value="$PROJECT_DIR$/src/pages/trending/store/reducer.js" />
         <option value="$PROJECT_DIR$/src/pages/home/style.js" />
         <option value="$PROJECT_DIR$/src/pages/trending/style.js" />
+        <option value="$PROJECT_DIR$/public/api/trending.json" />
+        <option value="$PROJECT_DIR$/src/common/search/store/index.js" />
+        <option value="$PROJECT_DIR$/src/common/search/store/createTypes.js" />
+        <option value="$PROJECT_DIR$/src/common/search/store/reducer.js" />
+        <option value="$PROJECT_DIR$/src/pages/trending/store/actionCreators.js" />
+        <option value="$PROJECT_DIR$/public/api/searchResult.json" />
+        <option value="$PROJECT_DIR$/src/common/search/store/actionCreators.js" />
+        <option value="$PROJECT_DIR$/src/pages/home/index.js" />
+        <option value="$PROJECT_DIR$/src/common/guild/index.js" />
+        <option value="$PROJECT_DIR$/src/common/guild/components/DropdownMenu.js" />
+        <option value="$PROJECT_DIR$/src/pages/index.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/pages/trending/index.js" />
+        <option value="$PROJECT_DIR$/src/common/guild/components/MastheadContainer.js" />
+        <option value="$PROJECT_DIR$/src/common/search/index.js" />
       </list>
     </option>
   </component>
@@ -248,6 +295,17 @@
             <path>
               <item name="youtube" type="b2602c69:ProjectViewProjectNode" />
               <item name="youtube" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youtube" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youtube" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youtube" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youtube" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -269,6 +327,21 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
               <item name="guild" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youtube" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youtube" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youtube" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youtube" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
               <item name="store" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -306,22 +379,25 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jianshu" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\React\youtube\src\common\search\store" />
+      <recent name="F:\React\youtube\src\pages\trending\store" />
+      <recent name="F:\React\youtube\src\pages\search" />
+      <recent name="F:\React\youtube\public" />
+      <recent name="F:\React\youtube\src\pages\trending" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\React\youtube\src\common" />
+      <recent name="F:\React\youtube\src\pages" />
+      <recent name="F:\React\youtube\public\api" />
       <recent name="F:\React\youtube\src\pages\playlist" />
       <recent name="F:\React\youtube\src\pages\playlist\components" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\React\youtube\src\pages\trending" />
-      <recent name="F:\React\youtube\src\pages\subscriptions" />
-      <recent name="F:\React\youtube\src\pages\playlist\components" />
-      <recent name="F:\React\youtube\src\pages" />
-      <recent name="F:\React\youtube\src\pages\home" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -348,18 +424,24 @@
       <updated>1537028224047</updated>
       <workItem from="1537028225582" duration="13544000" />
       <workItem from="1537072721604" duration="30556000" />
-      <workItem from="1537171702071" duration="20637000" />
+      <workItem from="1537171702071" duration="21237000" />
+      <workItem from="1537258882202" duration="6694000" />
+      <workItem from="1537279360121" duration="9634000" />
+      <workItem from="1537301941829" duration="1007000" />
+      <workItem from="1537347097887" duration="19899000" />
+      <workItem from="1537426898435" duration="1874000" />
+      <workItem from="1537474557423" duration="213000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64737000" />
+    <option name="totallyTimeSpent" value="104658000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13751318" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.098524764" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -385,22 +467,24 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/pages/home/index.js</url>
+          <line>274</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/pages/home/index.js</url>
+          <line>170</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/static/iconfont/iconfont.css" />
-    <entry file="file://$PROJECT_DIR$/src/store/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/static/iconfont/iconfont.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="656">
@@ -408,88 +492,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/home/store/reducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="44" lean-forward="true" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/home/store/actionCreators.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/home/store/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/reducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/guild/store/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/home/store/createTypes.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/playlist/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" selection-start-line="12" selection-end-line="13" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/style.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/guild/components/LeftGuild.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="74" column="46" lean-forward="true" selection-start-line="74" selection-start-column="46" selection-end-line="74" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-            <element signature="e#531#1422#0" />
-            <element signature="e#2523#3397#0" />
-            <element signature="e#3412#3881#0" />
-            <element signature="e#3896#4984#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/playlist/index.js" />
     <entry file="file://$PROJECT_DIR$/src/pages/playlist/child/History.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -511,133 +514,300 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/index.js">
+    <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="57" lean-forward="true" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="125">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/common/guild/store/createTypes.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/guild/style.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/manifest.json" />
+    <entry file="file://$PROJECT_DIR$/src/common/guild/store/reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/guild/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/common/guild/store/actionCreators.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="771">
+          <caret line="63" column="7" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/style.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/guild/components/LeftGuild.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="159" column="14" lean-forward="true" selection-start-line="159" selection-start-column="14" selection-end-line="159" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/methods/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/api/home.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="64" column="5" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/trending/store/createTypes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="27" selection-start-column="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/home/store/createTypes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/home/store/actionCreators.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/home/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/trending/style.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="790">
+          <caret line="66" column="9" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/home/style.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1000">
+          <caret line="63" column="6" selection-start-line="63" selection-start-column="6" selection-end-line="86" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/api/trending.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="73" column="25" lean-forward="true" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/trending/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/search/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/search/store/createTypes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/trending/store/reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/trending/store/actionCreators.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/search/store/reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="38" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/api/searchResult.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/search/store/actionCreators.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/search/style.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1912">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/common/guild/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="421">
+          <caret line="42" column="3" lean-forward="true" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
           <folding>
-            <element signature="e#0#47#0" expanded="true" />
+            <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/guild/store/reducer.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/home/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="11" />
+        <state relative-caret-position="421">
+          <caret line="1079" column="3" lean-forward="true" selection-start-line="1079" selection-start-column="3" selection-end-line="1079" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/trending/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2425">
+          <caret line="97" column="55" lean-forward="true" selection-start-line="97" selection-start-column="55" selection-end-line="97" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="51" column="3" selection-start-line="51" selection-start-column="3" selection-end-line="51" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="47" selection-start-column="47" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/guild/components/DropdownMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="9" column="67" selection-start-line="9" selection-start-column="67" selection-end-line="9" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/home/store/reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/guild/style.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="26" column="9" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/home/style.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="63" column="6" selection-start-line="63" selection-start-column="6" selection-end-line="92" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/style.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="796">
-          <caret line="52" column="3" selection-start-line="52" selection-start-column="3" selection-end-line="52" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/home/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="45" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-            <element signature="e#546#1161#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/common/guild/components/MastheadContainer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="63" column="14" selection-start-line="63" selection-start-column="14" selection-end-line="67" selection-end-column="30" />
+        <state relative-caret-position="496">
+          <caret line="29" column="46" lean-forward="true" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/trending/style.js">
+    <entry file="file://$PROJECT_DIR$/src/common/search/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="740">
-          <caret line="137" selection-start-line="137" selection-end-line="137" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/trending/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="465" column="16" selection-start-line="465" selection-start-column="16" selection-end-line="465" selection-end-column="16" />
+        <state relative-caret-position="546">
+          <caret line="92" column="40" selection-start-line="92" selection-start-column="40" selection-end-line="92" selection-end-column="40" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
-            <element signature="e#237#1656#0" />
-            <element signature="e#608#1223#0" />
-            <element signature="e#889#962#0" />
-            <element signature="e#1222#1290#0" />
-            <element signature="e#2595#4942#0" />
-            <element signature="e#2639#3231#0" />
-            <element signature="e#3337#3977#0" />
-            <element signature="e#3694#3954#0" />
-            <element signature="e#4953#7300#0" />
-            <element signature="e#4997#5589#0" />
-            <element signature="e#5695#6335#0" />
-            <element signature="e#6052#6312#0" />
-            <element signature="e#7311#9658#0" />
-            <element signature="e#7355#7947#0" />
-            <element signature="e#8053#8693#0" />
-            <element signature="e#8410#8670#0" />
-            <element signature="e#9669#12016#0" />
-            <element signature="e#9713#10305#0" />
-            <element signature="e#10411#11051#0" />
-            <element signature="e#10768#11028#0" />
-            <element signature="e#12027#14374#0" />
-            <element signature="e#12071#12663#0" />
-            <element signature="e#12769#13409#0" />
-            <element signature="e#13126#13386#0" />
-            <element signature="e#14385#16732#0" />
-            <element signature="e#14429#15021#0" />
-            <element signature="e#15127#15767#0" />
-            <element signature="e#15484#15744#0" />
-            <element signature="e#16743#19090#0" />
-            <element signature="e#16787#17379#0" />
-            <element signature="e#17485#18125#0" />
-            <element signature="e#17842#18102#0" />
           </folding>
         </state>
       </provider>

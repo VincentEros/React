@@ -1,4 +1,6 @@
 import React, {Component} from 'react'
+import { withRouter } from 'react-router-dom'
+import { connect } from 'react-redux'
 import {Input} from "antd";
 import 'antd/dist/antd.css';
 import {
@@ -9,13 +11,27 @@ import {
   Search,
   End,
   TopMenuButton,
-  AccountOptionButton
+  AccountOptionButton,
 } from '../style'
+import {  Dropdown } from 'antd';
+import * as dropMenu from './DropdownMenu'
+import { actionCreators } from "../../search/store";
+
 
 class TopGuild extends Component {
   render() {
     const AntdSearch = Input.Search
     const {doseLeftGuildShow, toggleLeftGuild, topBtnBgToDeep} = this.props
+    const { yieldMenu, appMenu } = dropMenu
+
+    const fetch= (value) => {
+      // this.props.history.push('/search', value)  //一般不用这个跳转
+      this.props.getSearchData()    // 一般向后台发送请求 获取数据然后渲染
+      // return <Redirect push to="/search" />
+      window.location.href="search" // 最好不用 这里有bug 因为重新载入后  获取的数据马上被清空了
+
+    }
+
     return (
       <MastheadContainer id="masthead-container">
         <Masthead id="masthead">
@@ -38,7 +54,7 @@ class TopGuild extends Component {
             <div id="input-container">
               <AntdSearch
                 placeholder="搜索"
-                onSearch={value => console.log(value)}
+                onSearch={value => {fetch(value)}}
                 style={{width: 640}}
                 enterButton
               />
@@ -47,14 +63,18 @@ class TopGuild extends Component {
           <End id="end">
             <div id="buttons">
               <TopMenuButton>
-                <button id="button">
-                  <i className="iconfont">&#xe967;</i>
-                </button>
+                <Dropdown overlay={yieldMenu} trigger={['click']}>
+                  <button id="button" className="ant-dropdown-link">
+                    <i className="iconfont">&#xe967;</i>
+                  </button>
+                </Dropdown>
               </TopMenuButton>
               <TopMenuButton>
+                <Dropdown overlay={appMenu} trigger={['click']}>
                 <button id="button">
                   <i className="iconfont">&#xe639;</i>
                 </button>
+                </Dropdown>
               </TopMenuButton>
               <TopMenuButton>
                 <button id="button">
@@ -82,5 +102,17 @@ class TopGuild extends Component {
     )
   }
 }
+// 搜索抓取数据
+const mapState = (state) => {
+  return {
+    resultList: state.getIn(['search','resultList'])
+  }
+}
 
-export default TopGuild
+const mapDispatch = (dispatch) => ({
+  getSearchData() {
+    dispatch(actionCreators.getSearchInfo())
+  }
+})
+
+export default connect(mapState, mapDispatch)(withRouter(TopGuild))

@@ -51,6 +51,17 @@ injectGlobal`
     content: '•';
     margin: 0 4px;
   }
+  
+  .ant-dropdown {
+    z-index: 3000;
+  }
+  @keyframes togif 
+      {
+        from{ opacity: 0;}
+        10%{ opacity: 1;}
+        90%{ opacity: 1;}
+        to{ opacity: 0;}
+      }
 `
 
 

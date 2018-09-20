@@ -1,8 +1,9 @@
-import React, {Component,Fragment} from 'react'
+import React, {Component} from 'react'
 import { connect } from 'react-redux'
 import {actionCreators} from './store'
 import TopGuild from './components/MastheadContainer'
 import LeftGuild from './components/LeftGuild'
+
 
 
 class Guild extends Component {

@@ -8,17 +8,17 @@ import axios from 'axios'
 // //   totalPage: Math.ceil(data.length / 10)
 // // })
 
-const changeHomeData = (result) => ({
-  type: actionTypes.CHANGE_HOME_DATA,
-  videoList: result.videoList
+const changeSearchData = (result) => ({
+  type: actionTypes.GET_SEARCH_RESULT,
+  resultList: result.resultList
 })
 
-export const getHomeInfo = () => {
+export const getSearchInfo = () => {
   return (dispatch) => {
-    axios.get('/api/home.json')
+    axios.get('/api/searchResult.json')
       .then((res) => {
         const result = res.data.data
-        dispatch(changeHomeData(result))
+        dispatch(changeSearchData(result))
       })
   }
 
