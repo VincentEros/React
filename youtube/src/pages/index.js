@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React, {PureComponent} from 'react'
 import { connect } from 'react-redux'
 import { BrowserRouter, Route, withRouter } from 'react-router-dom'
 import * as methods from '../common/methods'
@@ -6,14 +6,18 @@ import {
   PageManager
 } from './style'
 import Home from "./home";
+import Detail from "./detail";
 import Trending from "./trending";
 import MainPlayList from "./playlist/Mainplaylist";
 import ListHistory from "./playlist/child/History";
 import Subscription from "./subscriptions";
 import { actionCreators } from './home/store'
 import SearchPage from "../common/search"
+import LoginPage from "../common/login"
+import SignUp from "../common/signup"
 
-class Manager extends Component {
+
+class Manager extends PureComponent {
   render() {
     return (
       <BrowserRouter>
@@ -21,7 +25,10 @@ class Manager extends Component {
           className={this.props.doseLeftGuildShow ? "guide-persistent-and-visible" : ""}
         >
           <Route path='/' exact component={Home}></Route>
+          <Route path='/detail/:id' exact component={Detail}></Route>
           <Route path='/search' exact component={SearchPage}></Route>
+          <Route path='/login' exact component={LoginPage}></Route>
+          <Route path='/signup' exact component={SignUp}></Route>
           <Route path='/trending' component={Trending}></Route>
           <Route path='/subscriptions' component={Subscription}></Route>
           <Route path='/playlist' exact component={MainPlayList}></Route>

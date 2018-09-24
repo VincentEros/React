@@ -189,30 +189,4 @@ export const TrendingWrapper = styled.div`
             white-space: nowrap;
           }
 `
-export const VideoMenuButton = styled.div.attrs({className:'change-bg'})`
-  #button {
-    text-align: center;
-    vertical-align: middle;
-    color: #ccc;
-    outline: none;
-    margin: 0;
-    border: none;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    cursor: pointer;
-    background: transparent;
-    color: gray;
-  }
-  margin: 8px 16px 0 0;
-  padding: 8px;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  box-sizing: border-box;
-  transition: background .3s;
-  &.deep {
-    background: #ececec;
-    transition: background .3s;
-  }
-`
+

@@ -1,8 +1,10 @@
 import React, {Component} from 'react'
 import { connect } from 'react-redux'
 import {
+  IconButton,
+} from '../../style'
+import {
   TrendingWrapper,
-  VideoMenuButton
 } from './style'
 import { actionCreators } from './store'
 import * as methods from "../../common/methods";
@@ -42,11 +44,11 @@ class Trending extends Component {
                           </a>
                         </h3>
                         <div className="menu">
-                          <VideoMenuButton>
+                          <IconButton>
                             <button id="button">
                               <i className="iconfont">&#xe680;</i>
                             </button>
-                          </VideoMenuButton>
+                          </IconButton>
                         </div>
                       </div>
                       <div className="metadata">
@@ -80,6 +82,7 @@ class Trending extends Component {
     this.props.changeTrendingData()
   }
   componentDidUpdate () {
+    methods.topBtnBindMouseDownEvent()
     methods.toGifBindEvent()
   }
 

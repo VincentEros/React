@@ -1,20 +1,6 @@
 import styled from 'styled-components'
 
 export const MastheadContainer = styled.div`
-  #button {
-    text-align: center;
-    vertical-align: middle;
-    color: #ccc;
-    outline: none;
-    margin: 0;
-    border: none;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    cursor: pointer;
-    background: transparent;
-    color: gray;
-    }
   position: fixed;
   top: 0;
   width: 100%;
@@ -43,19 +29,6 @@ export const Masthead = styled.div`
   display: flex;
 `
 
-export const LeftGuildBtn = styled.div`
-  margin: 8px 16px 0 0;
-  padding: 8px;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  box-sizing: border-box;
-  transition: background .3s;
-  &.deep {
-    background: #ececec;
-    transition: background .3s;
-  }
-`
 
 export const Logo = styled.a.attrs({
   href: '/'
@@ -95,23 +68,12 @@ export const End = styled.div`
   flex-direction: row;
   font-size: 10px;
   #buttons {
+    height: 100%;
     display: flex;
     flex-direction: row;
   }
 `
-export const TopMenuButton = styled.div.attrs({className:'change-bg'})`
-  margin: 0px 16px 0 0;
-  padding: 8px;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  box-sizing: border-box;
-  transition: background .2s;
-  &.deep {
-    background: #ececec;
-    transition: background .2s;
-  }
-`
+
 export const AccountOptionButton = styled.div`
   display: flex;
   #avator-btn {
@@ -135,6 +97,10 @@ export const AccountOptionButton = styled.div`
         margin-right: auto;
         width: 100%;
       }
+  #login {
+    line-height: 50px;
+    font-size: 18px;
+  }
 `
 
 export const LeftGuildContainer =styled.div`

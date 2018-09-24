@@ -1,12 +1,14 @@
-import React, {Component} from 'react'
+import React, {PureComponent} from 'react'
 import { connect } from 'react-redux'
 import {actionCreators} from './store'
 import TopGuild from './components/MastheadContainer'
 import LeftGuild from './components/LeftGuild'
+import * as methods from '../../common/methods'
 
 
 
-class Guild extends Component {
+class Guild extends PureComponent {
+
   render() {
     const { doseLeftGuildShow, toggleLeftGuild } = this.props
     return (
@@ -14,7 +16,6 @@ class Guild extends Component {
         <TopGuild
           doseLeftGuildShow={doseLeftGuildShow}
           toggleLeftGuild={toggleLeftGuild}
-          topBtnBgToDeep={this.topBtnBgToDeep}
         />
         <LeftGuild
           doseLeftGuildShow={doseLeftGuildShow}
@@ -23,23 +24,8 @@ class Guild extends Component {
     )
   }
 
-  topBtnBgToDeep (e) {
-    let activeElem = e.target
-    activeElem.parentElement.parentElement.classList.add('deep')
-    activeElem.onmouseup = () => {
-      activeElem.parentElement.parentElement.classList.remove('deep')
-    }
-  }
-
-  topBtnBindMouseDownEvent = () => {
-    let menuBtns = document.getElementsByClassName('change-bg')
-    for (let i = 0; i < menuBtns.length; i++ ) {
-      menuBtns[i].onmousedown = this.topBtnBgToDeep
-    }
-  }
-
   componentDidMount () {
-    this.topBtnBindMouseDownEvent()
+    methods.topBtnBindMouseDownEvent()
   }
 }
 

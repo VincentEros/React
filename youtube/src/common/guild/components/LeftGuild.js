@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React, {PureComponent} from 'react'
 import 'antd/dist/antd.css';
 import {
   LeftGuildContainer,
@@ -7,7 +7,7 @@ import {
   GuildItem
 } from '../style'
 
-class LeftGuild extends Component {
+class LeftGuild extends PureComponent {
 
   render() {
     const {doseLeftGuildShow} = this.props
@@ -22,7 +22,7 @@ class LeftGuild extends Component {
               <GuildSection>
                 <h3>
                   <div id="guide-section-title" className="none-title">
-                    <a href=""></a>
+                    {/*<a href=""></a>*/}
                   </div>
                 </h3>
                 <div id="items">
@@ -124,7 +124,7 @@ class LeftGuild extends Component {
               <GuildSection>
                 <h3>
                   <div id="guide-section-title" className="none-title">
-                    <a href=""></a>
+                    {/*<a href=""></a>*/}
                   </div>
                 </h3>
                 <div id="items">
